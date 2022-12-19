@@ -1,0 +1,65 @@
+<!-- https://www.youtube.com/watch?v=7wFepLCvQGo
+bootstraps: https://www.youtube.com/watch?v=7wFepLCvQGo
+Video grabar registros con php y html:
+Parte no. 1: https://www.youtube.com/watch?v=B5MT8PFjcGk   
+Parte no. 2: https://www.youtube.com/watch?v=AZpKqEQS4e4
+Parte no. 3: https://www.youtube.com/watch?v=sWHw4ExP2hw  
+Clase de profesor, muy buena:
+https://www.youtube.com/watch?v=C-p9YlwExhM   -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formulario de Ingreso Activos</title>
+		<link rel="stylesheet" type="text/css" href="css/ups.css">
+		<meta name="viewport"  content="width=device-width, user=scalable=si, initial=scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<meta charset= "UTF-8">
+	</head>
+
+	<img src="img/Logo_ccss.jpg" alt="Mi Firma Digital" heigh="	150" width="100" align="top" > <i><strong>Almacen General CDC</strong>
+
+	<img src="img/Logo_ccss.jpg" alt="Mi Firma Digital" heigh="	150" width="100" align="right">
+
+	<!--                 javascrip      ------------------>
+	<script>
+	function grabar() {
+	if 
+    alert("Codigo encontrado con exito !");
+  }
+
+    function limpiar() {
+    alert("Limpiar y agregar nuevo registro !");
+  }
+</script>
+
+	<!--                 javascrip      ------------------>
+
+	<body>
+		
+		<h1>CONSULTA BASE DE DATOS POR CODIGO</h1>
+		<center>
+			<div class="form">
+				<form name = "form" action ="registro_consulta_inv" method="POST">
+				<fieldset class="cuadro">
+					<label>Ingrese Codigo:</label>
+					<input type="inputbox" name="Codigo" required><br><br>
+			<div class="nav">
+						<input type="submit" class="button" name="Consultar" onclick="grabar()" value="Consultar">
+						
+						<input type="reset" class = "button" name="Restablecer" onclick="limpiar()" value="Restablecer">
+				</div>
+				</form>
+			</div>
+		</center>
+	</body>
+	<center>
+			
+	<footer class="PaginaAnterior">
+		<a href="http://localhost:82/Personal%20web/Index_principal.html">Volver Atrás</a>
+	</footer>
+
+	<FOOTER class = "piepagina">
+		Programador: Ing. Wilson Herrera Umaña
+	</FOOTER>  
+</html>

@@ -1,0 +1,110 @@
+/*  Codigo para el encabezado y los titulos  */
+
+body {
+	background: cream;
+    font-family: sans-serif;
+}
+
+h1 {
+	color: blueviolet;
+	font-weight: 800;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 38px;
+	padding: 110px;
+	
+}
+
+.subtitulo {
+	color: powderblue;
+	font-weight: 600;
+	text-align: center;
+	font-family: cursive;
+	font-size: 28px;
+	padding-top: 350PX;
+	
+}
+
+ 
+/* Codigo css para el menu horizontal  */
+
+.uno li {
+	padding: 25px;
+	padding-right: 100px;
+	margin: auto;
+}
+
+/*   Formato para el cuadro menu principal   */
+.uno > li {
+	display: block;
+	float: left;
+	width: 120px;
+	list-style: none;
+	height: 1px;
+	overflow: hidden;
+	background: lightblue;
+	color: black;
+	box-shadow: 5px 3px;
+	font-stretch: 15%;	
+
+}
+
+.uno > li:hover{
+	height: auto;
+}
+
+.dos > li {
+	list-style: none;
+	margin-left: -40px;
+
+}
+
+.dos a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.dos li a {					
+	text-align: right;
+	font-size: 20px;
+	color: brown;
+	
+}
+
+/*    Formato para las letras del sub-menu usando hover    */
+.dos a:hover{
+	color: yellow;
+	background: black;
+
+}
+
+
+/*    Formato para titulos del menu    */
+.uno > li > a{
+	display: block;
+	float: left;
+	width: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding-left: 50px;
+	font-size: 20px;
+	font-weight: 100;
+
+}
+
+.dos > li > a{
+	text-align: center;
+	font-family: cursive;
+	font-size: 18px;
+
+}
+
+.programador{
+	text-align: left;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-style: italic;
+		
+}

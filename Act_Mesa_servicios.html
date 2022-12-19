@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!--Video grabar registros con php y html:
+Parte no. 1: https://www.youtube.com/watch?v=B5MT8PFjcGk   
+Parte no. 2: https://www.youtube.com/watch?v=AZpKqEQS4e4
+Parte no. 3: https://www.youtube.com/watch?v=sWHw4ExP2hw  
+
+Clase de profesor, muy buena:
+https://www.youtube.com/watch?v=C-p9YlwExhM   -->
+	<head>
+		<title>Formulario de Ingreso Mesa Servicios</title>
+		<link rel="stylesheet" type="text/css" href="css/Mesa_servicios.css">
+		<meta name="viewport"  content="width=device-width, user=scalable=si, initial=scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<meta charset= "UTF-8">
+	</head>
+
+	<img src="img/Logo_ccss.jpg" alt="Mi Firma Digital" heigh="	150" width="100" align="top" > <i><strong>Almacen General CDC</strong>
+
+	<img src="img/Logo_ccss.jpg" alt="Mi Firma Digital" heigh="	150" width="100" align="right">
+
+	<!--         programacion en java         -->
+
+<script>
+	function grabar() {
+		alert("Registro enviado con exito !");
+ }
+
+    function limpiar() {
+    alert("Limpiar y agregar nuevo registro !");
+  }
+
+    </script>
+
+ <!--         fin de programacion en java         -->
+
+	<body>
+		
+		<h1>INGRESO REGISTROS MESA SERVICIOS</h1>
+		<center><br><br>
+			<div class="form">
+				<form name = "form" action ="Registro_Mesa_servicios.php" method="POST">
+				<fieldset class="cuadro">
+					<label>Consecutivo:</label>
+					<input type="text" name="id" required><br><br>
+					<label>No. Incidente:</label>
+					<input type="text" name="NoIncidente" required><br><br>
+					<label>Fecha ingreso:</label>
+					<input type="text" name="Fingreso" required><br><br>
+					<label>Fecha respuesta:</label>
+					<input type="text" name="Frespuesta" required><br><br>
+					<label>Solicitado:</label>
+					<input type="text" name="Descrip_solicitado" required><br><br>
+					<label>Trabajo respondido:</label>
+					<input type="text" name="Respondido" required><br><br>
+					<label>Comentario:</label>
+					<input type="text" name="Comentario" required>
+				</fieldset><br>
+				
+				<div class="nav">
+					
+								<input type="submit" class="button" name="Enviar" onclick="grabar()" value="Enviar"> 
+								
+								<input type="reset" class = "button" name="Restablecer" onclick="limpiar()" value="Restablecer">
+						</div>
+
+				</form>
+			</div>
+		</center>
+	</body><br><br><br><br><br>
+
+	<footer class="PaginaAnterior">
+		<a href="C:/xampp/htdocs/Personal%20web/Index_principal.html">Volver Atrás</a>
+	</footer>
+
+	<FOOTER class = "piepagina">
+		Programador: Ing. Wilson Herrera Umaña
+	</FOOTER>  
+</html>

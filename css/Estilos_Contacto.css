@@ -1,0 +1,78 @@
+#contac {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+	font-family: arial;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: lightblue;
+}
+
+.fotos {
+	box-shadow: 1x 2x;
+	height: 50%;
+	width: 50%;
+}
+
+.fotos:hover {
+	transform: scale(1.6);
+    transition: .2s;
+    z-index: 1000;
+    background-color: black;
+    color: blue;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 55px;
+	font-family: arial;
+	font-style: italic;
+	color:white;
+
+}
+
+.h2 {
+	text-align: center;
+	color: red;
+	font-size: 35px;
+	font-family: arial;
+	font-style: italic;
+}
+
+#h3 {
+	text-align: center;
+	color: red;
+	font-size:30px;
+	font-family: arial;
+	font-style: italic;
+}
+
+#h4 {
+	text-align: center;
+	color: red;
+	font-size: 25px;
+	font-family: arial;
+	font-style: italic;
+}
+
+footer {
+	color: black;
+	text-align: right;
+	font-size: 15px;
+	font-family: arial;
+	font-style: italic;
+}
+
+.PaginaAnterior {
+	text-align: left;
+	font-size: 18px;
+}
+
+.grid {
+	box-shadow: 7px 8px 8px 7px;
+}
+

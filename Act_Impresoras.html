@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<!--Video grabar registros con php y html:
+Parte no. 1: https://www.youtube.com/watch?v=B5MT8PFjcGk   
+Parte no. 2: https://www.youtube.com/watch?v=AZpKqEQS4e4
+Parte no. 3: https://www.youtube.com/watch?v=sWHw4ExP2hw  
+
+Clase de profesor, muy buena:
+https://www.youtube.com/watch?v=C-p9YlwExhM   -->
+	<head>
+		<title>Formulario de Ingreso Activos</title>
+		<link rel="stylesheet" type="text/css" href="css/impresoras.css">
+		<meta name="viewport"  content="width=device-width, user=scalable=si, initial=scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<meta charset= "UTF-8">
+	</head>
+
+	<img src="img/Logo_ccss.jpg" alt="Mi Firma Digital" heigh="	150" width="100" align="top" > <i><strong>Almacen General CDC</strong>
+
+	<img src="img/Logo_ccss.jpg" alt="Mi Firma Digital" heigh="	150" width="100" align="right">
+
+	<body>
+		
+		<h1>INGRESO DE IMPRESORAS</h1>
+		<center>
+			<div class="form">
+				<form name = "form" action ="registro_impresoras.php" method="POST">
+				<fieldset class="cuadro">
+					<label>No. Id:</label>
+					<input type="text" name="Consecutivo" required><br><br>
+					<label>Fecha ingreso:</label>
+					<input type="text" name="Fingreso" required><br><br>
+					<label>Placa:</label>
+					<input type="text" name="NoPlaca" required><br><br>
+					<label>Ubicacion:</label>
+					<input type="text" name="Ubicacion" required><br><br>
+					<label>Marca:</label>
+					<input type="text" name="Marca" required><br><br>
+					<label>Modelo:</label>
+					<input type="text" name="Modelo" required><br><br>
+					<label>Tipo impresora:</label>
+					<input type="text" name="Tipoimpresora" required><br><br>
+					<label>Tipo impresion:</label>
+					<input type="text" name="Tipoimpresion" required><br><br>
+					<label>Observaciones:</label>
+					<input type="text" name="Observaciones" required><br><br>
+				</fieldset><br>
+				
+				<div class="nav">	
+					<input type="submit" name="Registrar">
+					<input type="reset" name="Restablecer">
+				</div>
+
+				</form>
+			</div>
+		</center>
+	</body><br><br><br><br><br>
+
+	<footer class="PaginaAnterior">
+		<a href="http://localhost/personal%20web/Index_principal.html">Volver Atrás</a>
+	</footer>
+
+	<FOOTER class = "piepagina">
+		Programador: Ing. Wilson Herrera Umaña
+	</FOOTER>  
+</html>

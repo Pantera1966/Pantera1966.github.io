@@ -1,0 +1,80 @@
+*{
+	margin: 50;
+	padding: 50;
+	background-color: whitesmoke;
+}
+
+.principal {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 50px;
+	color: red;
+	width: auto;
+}
+
+
+h1{
+	font-size: 50px;
+	font-weight: 200px;
+	font-family: unset;
+	text-align: center;
+	padding: 25px;
+	width:auto;
+	background-color: black;
+	color: white;
+	margin-top: 5px;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px; 
+	
+}
+
+form label {
+	font-size: 20px;
+	font-weight: 800;
+
+}
+
+form {
+	padding: 70px;
+	padding-top: 5px;
+	padding-left: 30px;
+	color: black;
+	font-weight: 900px;
+	font-size: 20px;
+	width: 400px;
+	height: 500px;
+	margin: auto;
+	text-align: right;
+
+}
+
+.cuadro {					/*  Pertenece al Fieldset   */
+	box-shadow: 5px 2px;
+	border-style: ridge;
+}
+
+.cuadro > [type="text"]{
+	background: ghostwhite;
+	color: green;
+	background-color: white;
+}
+
+.nav {						/*  Pertenece a los botones de navegacion  */
+	text-align: center;
+	border-style: groove;
+	background-color: ghostwhite;
+	height: 31px;
+	box-shadow: 0px 0px 5px 2px;
+}
+
+.PaginaAnterior {
+	
+	text-align: left;
+}
+
+.piepagina {
+	
+	text-align: right;
+}
